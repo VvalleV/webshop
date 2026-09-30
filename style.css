@@ -1,0 +1,419 @@
+/* Tar bort standardmarginalen runt hela sidan */
+body
+{
+    margin: 0;
+
+    /* Bakgrundsfärgen på sidan */
+    background-color: gainsboro;
+}
+
+
+/* Huvudbehållaren som innehåller hela hemsidan */
+#wrapper
+{
+    /* Sidans bredd */
+    width: 1400px;
+
+    /* Centrerar sidan */
+    margin: auto;
+}
+
+
+/*TOP MENU*/
+
+/* Den mörka raden längst upp */
+#top
+{
+    /* Bakgrundsfärg */
+    background-color: #252525;
+
+    /* Höjd på raden */
+    height: 24px;
+
+    /* Tar upp hela wrapperns bredd */
+    width: 100%;
+
+    /* Avstånd från toppen */
+    padding-top: 10px;
+
+    /* Textfärg */
+    color: #ffffff;
+
+    /* Typsnitt */
+    font-family: Verdana;
+
+    /* Textstorlek */
+    font-size: 12px;
+
+    /* Avstånd mellan bokstäver */
+    letter-spacing: 1px;
+}
+
+
+/* Länkarna på vänster sida av top-menyn */
+#toplinks
+{
+    /* Flyttar länkarna från vänsterkanten */
+    margin-left: 115px;
+
+    /* Gör så att elementen kan ligga bredvid varandra */
+    float: left;
+}
+
+
+/* Länkar inne i top-menyn */
+#top a
+{
+    /* Tar bort understrykningen */
+    text-decoration: none;
+
+    /* Gör texten vit */
+    color: #ffffff;
+}
+
+
+/* När muspekaren är över en länk */
+#top a:hover
+{
+    /* Ändrar färgen till orange */
+    color: #f7941d;
+}
+
+
+/* Mellanrummet runt | */
+.divider
+{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+/* Information på höger sida av top-menyn */
+#rightinfo
+{
+    /* Placerar den bredvid toplinks */
+    float: left;
+
+    /* Avstånd från vänster */
+    margin-left: 220px;
+}
+
+
+/* HEADER*/
+
+
+/* Den vita menyn under top-menyn */
+#header
+{
+    /* Höjden på headern */
+    height: 81px;
+
+    /* Vit bakgrund */
+    background-color: #ffffff;
+
+    /* Hela wrapperns bredd */
+    width: 100%;
+
+    /* Standardtextfärg */
+    color: #000000;
+
+    /* Typsnitt */
+    font-family: Verdana;
+
+    /* Textstorlek */
+    font-size: 12px;
+
+    /* Avstånd mellan bokstäver */
+    letter-spacing: 1px;
+}
+
+
+/* Länkar i headern */
+#header a
+{
+    /* Tar bort understrykningen */
+    text-decoration: none;
+
+    /* Svart text */
+    color: #000000;
+}
+
+
+/* Färg när muspekaren är över en header-länk */
+#header a:hover
+{
+    /* Orange färg */
+    color: #f7941d;
+}
+
+
+/* Vänstra delen av headern */
+#headerleft
+{
+    /* Placerar delen till vänster */
+    float: left;
+
+    /* Avstånd från vänsterkanten */
+    padding-left: 144px;
+
+    /* Avstånd från toppen */
+    padding-top: 34px;
+}
+
+
+/* Mitten av headern där logotypen finns */
+#headermid
+{
+    /* Placerar logotypen bredvid vänstra delen */
+    float: left;
+
+    /* Avstånd från vänster */
+    padding-left: 120px;
+}
+
+
+/* Högra delen av headern */
+#headerright
+{
+    /* Placerar delen bredvid de andra */
+    float: left;
+
+    /* Avstånd från vänster */
+    padding-left: 120px;
+
+    /* Avstånd från toppen */
+    padding-top: 34px;
+}
+
+
+/* FRONT IMAGE*/
+
+
+/* Den stora bilden på startsidan */
+#frontImage
+{
+    /* Hämtar bilden front.jpg från samma mapp */
+    background-image: url("front.jpg");
+
+    /* Bildens höjd */
+    height: 582px;
+
+    /* Gör så att bilden täcker hela området */
+    background-size: cover;
+
+    /* Centrerar bilden */
+    background-position: center;
+
+    /* Gör så att bilden inte upprepas */
+    background-repeat: no-repeat;
+}
+
+
+/*SHOP NOW BUTTON*/
+
+
+/* Knappen ovanpå frontbilden */
+#shopNowButton
+{
+    /* Orange bakgrund */
+    background-color: #f7641d;
+
+    /* Typsnitt */
+    font-family: Verdana, sans-serif;
+
+    /* Textstorlek */
+    font-size: 18px;
+
+    /* Avstånd mellan bokstäver */
+    letter-spacing: 1px;
+
+    /* Vit text */
+    color: #ffffff;
+
+    /* Knappens bredd */
+    width: 196px;
+
+    /* Knappens höjd */
+    height: 52px;
+
+    /* Ingen kant runt knappen */
+    border: 0px;
+
+    /* Gör det möjligt att flytta knappen */
+    position: relative;
+
+    /* Flyttar knappen nedåt */
+    top: 364px;
+
+    /* Flyttar knappen åt höger */
+    left: 214px;
+
+    /* Muspekaren blir en hand */
+    cursor: pointer;
+}
+#shopNowButton:hover
+{
+    background-color: #f7a71d;
+}
+
+/*CATEGORIES / DISCOVER*/
+
+#categories
+{
+    height: 410px;
+    background-color: #ffffff;
+}
+#categories table
+{
+    margin: auto;
+}
+#categories td
+{
+    padding: 30px 15px 0px 15px;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+}
+#categories td a 
+{
+    text-decoration: none;
+    color: #000000;
+}
+#categories td a:hover
+{
+    color: #f7641d;
+}
+
+/*NEWSLETTER*/
+
+#newsletter
+{
+    background-image: url("newsletter.jpg");
+    background-repeat: no-repeat;
+    background-color: #c69c6c;
+    height: 218px;
+    padding-top: 40px;
+    font-family: verdana, sans-serif;
+}
+#newsletter h1
+{
+    display: inline;
+    font-size: 58px;
+    margin-right: 46px;
+}
+#newsletter h2
+{
+    display: inline;
+    font-weight: lighter;
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin-right: 40px;
+}
+#email
+{
+    height: 35px;
+    width: 380px;
+    font-size: 16px;
+    color: black;
+}
+#subscribe
+{
+    background-color: #252525;
+    color: #ffffff;
+    font-family: verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    height: 40px;
+    width: 180px;
+    cursor: pointer;
+    border: none;
+}
+#subscribe:hover
+{
+    background-color: #353535;
+    color: #f7941d;
+}
+#newsletter p
+{
+    letter-spacing: 0px;
+    font-size: 13px;
+    text-align: center;
+}
+
+/*FOOTER*/
+
+#footer
+{
+    background-color: #ffffff;
+    padding-top: 40px;
+    font-family: verdana, sans-serif;
+}
+#footer table
+{
+    margin: auto;
+    width: 80%;
+}
+#footer td
+{
+    vertical-align: top;
+    width: 25%;
+    padding-bottom: 40px;
+}
+#footer h4
+{
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+#footer a
+{
+    text-decoration: none;
+    color: #888888;
+    font-size: 12px;
+    line-height: 22px;
+}
+#footer a:hover
+{
+    color: #f7641d;
+}
+#footer p
+{
+    color: #888888;
+    font-size: 12px;
+    margin: 5px 0;
+    line-height: 18px;
+}
+#copyright
+{
+    background-color: #252525;
+    text-align: center;
+    padding: 10px 0;
+}
+#copyright p
+{
+    color: #ffffff;
+    font-size: 11px;
+    margin: 0;
+}
+#Signup
+{
+    color: #ffffff;
+}
+#Toour
+{
+    color: #ffffff;
+}
+#Newsletter2
+{
+    color: #ffffff;
+}
+#Footer-titel
+{
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #000; /* Tjock svart linje*/
+    display: inline-block; /* Gör så att linjen bara blir lika bred som texten */
+}

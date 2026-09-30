@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!-- Talar om för webbläsaren att vi använder HTML5 -->
+
+<html lang="en">
+<!-- Början på HTML-dokumentet -->
+
+<head>
+
+    <!-- Anger vilken teckenuppsättning sidan använder -->
+    <meta charset="UTF-8">
+
+    <!-- Gör sidan anpassad för olika skärmstorlekar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Namnet som visas på webbläsarens flik -->
+    <title>Bambini</title>
+
+    <!-- Kopplar HTML-filen till CSS-filen -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+<!-- Allt som syns på själva hemsidan ligger här -->
+
+
+    <!-- WRAPPER
+         Innehåller hela hemsidan -->
+    <div id="wrapper">
+
+
+        <!--TOP MENU-->
+
+        <!-- Den mörka menyn längst upp -->
+        <div id="top">
+
+
+            <!-- Vänstra delen av top-menyn -->
+            <div id="toplinks">
+
+                <!-- Länkar -->
+                <a href="#">WHATS NEW</a>
+
+                <!-- Lodrätt streck mellan länkarna -->
+                <span class="divider">|</span>
+
+                <a href="#">DESIGNER</a>
+
+                <span class="divider">|</span>
+
+                <a href="#">CLOTHING</a>
+
+                <span class="divider">|</span>
+
+                <a href="#">SHOES</a>
+
+                <span class="divider">|</span>
+
+                <a href="#">BAG</a>
+
+                <span class="divider">|</span>
+
+                <a href="#">ACCESSORIES</a>
+
+            </div>
+
+
+            <!-- Högerdelen av top-menyn -->
+            <div id="rightinfo">
+
+                <!-- Bild för Sign In -->
+                <img src="signin.jpg" style="vertical-align: top;">
+
+                <!-- Sign In-länk -->
+                <a href="#">SIGN IN</a>
+
+
+                <!-- Skapar mellanrum -->
+                <span style="padding-left:40px;"></span>
+
+
+                <!-- Bild för shopping bag -->
+                <img src="shoppingbag.jpg" style="vertical-align: top;">
+
+                <!-- Shopping bag-länk -->
+                <a href="#">SHOPPING BAG - 0 ITEMS</a>
+
+            </div>
+
+        </div>
+
+
+        <!--HEADER-->
+
+        <!-- Den vita menyn under top-menyn -->
+        <div id="header">
+
+
+            <!-- Vänstra delen av headern -->
+            <div id="headerleft">
+
+                <a href="#">NEW ARRIVALS</a>
+
+                <span class="divider">|</span>
+
+                <a href="#">SHOP BOY</a>
+
+                <span class="divider">|</span>
+
+                <a href="#">SHOP GIRL</a>
+
+            </div>
+
+
+            <!-- Mitten av headern -->
+            <div id="headermid">
+
+                <!-- Bambini-logotypen -->
+                <a href="#">
+                    <img src="bambinilogo.jpg" style="vertical-align: top;">
+                </a>
+
+            </div>
+
+
+            <!-- Högra delen av headern -->
+            <div id="headerright">
+
+                <a href="#">SHOP BABY</a>
+
+                <span class="divider">|</span>
+
+                <a href="#">DESIGNER</a>
+
+                <span class="divider">|</span>
+
+                <a href="#">SALE</a>
+
+            </div>
+
+        </div>
+
+
+        <!--FRONT IMAGE-->
+
+        <!-- Stor bild på startsidan -->
+        <div id="frontImage">
+
+            <!-- Knappen som ligger ovanpå bilden -->
+            <button id="shopNowButton">
+                SHOP NOW
+            </button>
+
+        </div>
+
+
+        <!--CATEGORIES / DISCOVER-->
+
+        <!-- Sektionen med kategorier -->
+        <div id="categories">
+
+            <!-- Tabell som används för att placera bilderna -->
+            <table>
+
+
+                <!-- Första raden -->
+                <tr>
+
+                    <!-- Accessories -->
+                    <td>
+
+                        <a href="#">
+                            <img src="accessories.jpg" alt="accessories">
+                        </a>
+
+                    </td>
+
+
+                    <!-- Coats -->
+                    <td>
+
+                        <a href="#">
+                            <img src="coats.jpg" alt="coats">
+                        </a>
+
+                    </td>
+
+
+                    <!-- Shirts -->
+                    <td>
+
+                        <a href="#">
+                            <img src="shirts.jpg" alt="shirts">
+                        </a>
+
+                    </td>
+
+                </tr>
+
+
+                <!-- Andra raden -->
+                <tr>
+
+                    <!-- Text under Accessories -->
+                    <td>
+                        <a href="#">DISCOVER ACCESSORIES</a>
+                    </td>
+
+
+                    <!-- Text under Coats -->
+                    <td>
+                        <a href="#">DISCOVER COATS</a>
+                    </td>
+
+
+                    <!-- Text under Shirts -->
+                    <td>
+                        <a href="#">DISCOVER SHIRTS</a>
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+
+        <!-- NEWSLETTER-->
+
+        <!-- Newsletter-sektionen -->
+        <div id="newsletter">
+
+
+            <!-- Första delen -->
+            <div id="Toour">
+                <!-- Rubrik -->
+                <h2>SUBSCRIBE TO OUR</h2>
+
+                <!-- Fält där användaren kan skriva sin email -->
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="ENTER YOUR EMAIL HERE"
+                >
+
+            </div>
+
+
+            <!-- Andra delen -->
+            <div id="Newsletter2">
+
+                <!-- Rubrik -->
+                <h1>NEWSLETTER</h1>
+
+                <!-- Prenumerationsknapp -->
+                <button id="subscribe">
+                    SUBSCRIBE
+                </button>
+
+            </div>
+
+
+            <!-- Tredje delen -->
+            <div id="Signup">
+
+                <!-- Informationstext -->
+                <p>
+                    Sign up for the updates, style ideas in latest fashion news from your favourite designers at Childrensalon.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <!--FOOTER-->
+
+        <div id="footer">
+            <table>
+                <tr>
+                    <td>
+                        <h4>COMPANY</h4>
+                        <a href="#">What's new</a><br>
+                        <a href="#">Designer</a><br>
+                        <a href="#">Clothing</a><br>
+                        <a href="#">Shoes</a><br>
+                        <a href="#">Bags</a><br>
+                        <a href="#">Accessories</a>
+                    </td>
+                    <td>
+                        <h4>CATEGORY</h4>
+                        <a href="#">New arrivals</a><br>
+                        <a href="#">Shop boy</a><br>
+                        <a href="#">Shop girl</a><br>
+                        <a href="#">Shop baby</a><br>
+                        <a href="#">Designers</a>
+                    </td>
+                    <td>
+                        <h4>CONTACT US</h4>
+                        <p>Goldens quartierTuchlaubenhof 7</p>
+                        <p>Vienna,1st district</p>
+                        <p>+43-1-890 69 67</p>
+                        <p>gq@bambinifashion.at</p>
+                    </td>
+                    <td>
+                        <h4>Follow Us On</h4>
+                        <a href="#">Facebook</a><br>
+                        <a href="#">Twitter</a><br>
+                        <a href="#">LinkedIn</a><br>
+                        <a href="#">Rss</a>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="copyright">
+                <p>Copyright © 2026 All rights reserved to Valentin Alidani</p>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Slut på wrapper --> 
+
+</body>
+<!-- Slut på innehållet på sidan -->
+
+</html>
